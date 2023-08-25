@@ -1,0 +1,74 @@
+/* Reset básico para navegadores: Establece márgenes, padding y tipografía por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos para el cuerpo de la página: fondo claro, tipografía y espacio */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilos para el contenedor principal: centrado, con un tamaño máximo y sombreado */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para encabezados: centrado y con margen inferior */
+h1, h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Espaciado para las secciones de entrada y salida */
+.input-section,
+.output-section {
+    margin-bottom: 20px;
+}
+
+/* Estilos para campos de texto: tamaño, padding, bordes y margen */
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilos para botones: color, padding, bordes y transiciones */
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto hover para botones: cambio de color al pasar el mouse */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para el párrafo de salida de datos: margen superior */
+#outputData {
+    margin-top: 10px;
+}
+
+/* Media query para responsividad: campos de texto se expanden al 100% en pantallas más pequeñas */
+@media (max-width: 768px) {
+    input[type="text"] {
+        width: 100%;
+    }
+}
