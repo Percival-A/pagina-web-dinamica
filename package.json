@@ -17,7 +17,7 @@
     "sqlite3": "^5.1.6"
   },
   "engines": {
-    "node": "v18.17.1"
+    "node": "^18.17.1"
   },
   "repository": {
     "type": "git",
